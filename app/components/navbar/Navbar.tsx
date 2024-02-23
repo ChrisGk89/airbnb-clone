@@ -1,5 +1,6 @@
 import Container from "../Container";
 import Logo from "./Logo";
+import Search from "./Search";
 
 const Navbar = () => {
     return (
@@ -17,8 +18,11 @@ const Navbar = () => {
                         items-center
                         gap-3
                         md:gap-0
-                    ">
-                    <Logo />
+                        justify-between
+                        "
+                    >
+                        <Logo />
+                        <Search />
                     </div>
                 </Container>
             </div>
